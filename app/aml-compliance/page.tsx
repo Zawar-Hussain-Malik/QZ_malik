@@ -1,14 +1,29 @@
 import Navigation from '@/components/Navigation'
+import Image from 'next/image'
 
 export default function AMLCompliance() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-beige-light via-beige to-cream">
       <Navigation />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-20">
+      {/* DOAML Logo */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="mb-4">
+          <Image 
+            src="/images/doaml-logo.png" 
+            alt="DOAML Consultancy Logo" 
+            width={600}
+            height={150}
+            className="w-auto h-auto max-w-full"
+            priority
+          />
+        </div>
+      </div>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
         <div className="mb-6 sm:mb-8">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-olive-dark mb-2">
-            DR. QAMAR UZ ZAMAN Ph D, ACFA
+            DR. QAMAR UZ ZAMAN Ph.D, ACFA
           </h1>
           <p className="text-base sm:text-lg lg:text-2xl text-olive mb-4 sm:mb-6">
             Lead AML/CFT & Sanctions Compliance Consultant | Regulatory Advisor | Trainer & Academic Researcher

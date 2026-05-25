@@ -98,7 +98,7 @@ export interface CVData {
 
 export const cvData: CVData = {
   name: "Dr. Qamar Uz Zaman (Ph.D | ACFA | ACCA Part Qual.. | Ex-PWC)",
-  title: "Assistant Professor | COMSATS University Islamabad, Sahiwal Campus\nFintech, Regtech, MSB, Crypto KYC AML/CFT Compliance Expert\nPh.D. Management Sciences | Specialization in Finance",
+  title: "Associate Professor of Finance and Compliance\nFintech, Regtech, MSB, Crypto KYC AML/CFT Compliance Expert\nPh.D. Management Sciences | Specialization in Finance\nCOMSATS University Islamabad, Sahiwal Campus",
   email: ["qamar@cuisahiwal.edu.pk", "qzmalik@gmail.com"],
   phone: ["+923216301747", "+923326301747"],
   nationality: "Pakistani",
